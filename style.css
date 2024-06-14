@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #a3d7f5;
+  padding: 12px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: #050000;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+#demo{
+  font-family: Georgia, serif;
+}
+body{ 
+  background-color: #e0f0ff;
+}
+
+.left {
+  background-color: #0a0a0a;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .left {
+    width: 100%;
+  }
+}
